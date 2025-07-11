@@ -1,0 +1,11 @@
+name: github-first-action
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu_latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello World!"
+      - name: Say Goodbye
+        run: echo "Say Goodbye!"
+    
