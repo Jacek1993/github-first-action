@@ -26,6 +26,11 @@ on:
       environment:
         description: 'Environment to run tests against'
         type: environment
+        options:
+        - ho1
+        - en1
+        - ch1
+        - jl1
         required: true
 jobs:
   test:
