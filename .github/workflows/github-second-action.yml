@@ -5,6 +5,7 @@ on:
       - 'main'
     paths:
       - 'second-action/**'
+      - 'vite.config.js'
 jobs:
   test:
     runs-on: ubuntu-latest
