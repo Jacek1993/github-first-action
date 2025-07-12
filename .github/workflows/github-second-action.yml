@@ -7,6 +7,7 @@ on:
       - 'second-action/**'
       - 'vite.config.js'
       - '.github/workflows/github-second-action.yml'
+      - 'index.html'
 jobs:
   test:
     runs-on: ubuntu-latest
